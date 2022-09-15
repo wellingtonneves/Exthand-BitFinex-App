@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Exthand.Bitfinex.App</RootNamespace>
+    <AssemblyName>Exthand.Bitfinex.App</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hangfire" Version="1.7.31" />
+    <PackageReference Include="Hangfire.Console" Version="1.4.2" />
+    <PackageReference Include="Hangfire.Console.Extensions" Version="1.0.5" />
+    <PackageReference Include="Hangfire.MemoryStorage" Version="1.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Exthand-Bitfinex-DTO\Exthand.BitFinex.DTO.csproj" />
+    <ProjectReference Include="..\Exthand-Bitfinex-Repository\Exthand.BitFinex.Repository.csproj" />
+    <ProjectReference Include="..\Exthand-Bitfinex-Service\Exthand.BitFinex.Service.csproj" />
+    <ProjectReference Include="..\Exthand-Bitfinex-Shared\Exthand.BitFinex.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

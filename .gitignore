@@ -1,0 +1,11 @@
+# Folders
+.vs/
+.vscode/
+bin/
+obj/
+
+# Files
+.env
+dev_rfc.log
+*.trc
+*.user

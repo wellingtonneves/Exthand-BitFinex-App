@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "Extand.BitFinex.App": {
+      "commandName": "Project",
+      "commandLineArgs": "Development",
+        "environmentVariables": {
+            "LOGLEVEL": "Warning",
+            "MACHINE": "DEBUG",
+            "CURRENCY_PAIR": "tBTCEUR",
+            "SCHEDULE_INTERVAL": "10",
+            "BitFinex_API_URI": "https://api-pub.bitfinex.com/v2/"
+        }
+    }
+  }
+}
