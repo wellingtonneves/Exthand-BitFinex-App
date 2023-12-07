@@ -1,0 +1,39 @@
+{
+    "iisSettings": {
+        "windowsAuthentication": false,
+        "anonymousAuthentication": true,
+        "iisExpress": {
+            "applicationUrl": "http://localhost:65079",
+            "sslPort": 0
+        }
+    },
+    "$schema": "http://json.schemastore.org/launchsettings.json",
+    "profiles": {
+        "IIS Express": {
+            "commandName": "IISExpress",
+            "launchBrowser": true,
+            "launchUrl": "swagger",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        },
+        "Best.Buy.API": {
+            "commandName": "Project",
+            "launchBrowser": true,
+            "launchUrl": "swagger",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "KEY_NAME": "api_key",
+                "API_KEY": "VEu4DRF1Wwgl54oI4TerpOTq",
+                "CONNECTION_STRING": "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Atriis;Integrated Security=True;Pooling=False;Encrypt=True;Trust Server Certificate=False"
+            },
+            "applicationUrl": "http://localhost:5000"
+        },
+        "Docker": {
+            "commandName": "Docker",
+            "launchBrowser": true,
+            "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/azure",
+            "publishAllPorts": true
+        }
+    }
+}
